@@ -1,0 +1,23 @@
+.header {
+  height: 50px;
+  font-family: "Arial";
+  background: rgba(185, 166, 243, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20%;
+  list-style-type: none;
+  color: black;
+}
+.header ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=header.css.map */

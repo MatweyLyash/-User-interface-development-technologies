@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  background: #ded9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #root {
+  border: 2px solid rgba(238, 48, 48, 0.64);
+  border-radius: 5px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #root .Search {
+  background: linear-gradient(red, orange, yellow, green, lightblue, blue, indigo);
+  padding: 10px 20px 10px 20px;
+}
+body #root .Search .Inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body #root .Search .Inputs .wrapCheck {
+  margin-top: 5px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

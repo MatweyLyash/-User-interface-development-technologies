@@ -1,0 +1,26 @@
+.footer{
+  margin-top: 28px;
+  height: 50px;
+  font-family: "Arial";
+  background: rgba(106, 91, 140, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  flex-direction: column;
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+    list-style-type: none;
+    color: #f5d3d3;
+    li{
+      a{
+        text-decoration: none;
+        color: inherit;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.board {
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #000;
+  }
+  
+  .row:nth-child(3n) .cell {
+    border-bottom-width: 2px;
+  }
+  
+  .cell:nth-child(3n) {
+    border-right-width: 2px;
+  }
+  .cell.error {
+    background-color: red;
+  }
+  .cell.correct {
+    background-color: yellow;
+  }
+  

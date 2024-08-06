@@ -1,0 +1,65 @@
+body{
+  background: rgb(179, 208, 208);
+  font-family: "Arial";
+  #root{
+    .input-field{
+      display: flex;
+      justify-content: space-around;
+    }
+    .Movies{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    .headerText{
+      padding-left: 30px;
+      color: white;
+      background: linear-gradient(blue, red, green, indigo, yellow);
+      margin-bottom: 10px;
+    }
+
+      .stuffs{
+        max-width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .Card{
+          max-height: 110px;
+          border-radius: 3px;
+          margin-inline: 30px;
+          padding-bottom: 20px;
+          margin-top: 10px;
+          margin-bottom: 20px ;
+          background: azure;
+          h1{
+            font-size: 8px;
+            padding-inline: 5px;
+            padding-top: 3px;
+          }
+          .wrapper{
+            width: 150px;
+            height: 90px;
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+
+            }
+          }
+          p{
+            padding-top: 10px;
+            padding-inline: 5px;
+            font-size:8px ;
+            span{
+              padding-left: 50%;
+              color: #5f5fe3;
+            }
+          }
+
+        }
+      }
+
+    }
+  }
+
+}
